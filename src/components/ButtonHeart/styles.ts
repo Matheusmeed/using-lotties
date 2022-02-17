@@ -19,6 +19,6 @@ export const ButtonElement = styled.button`
 
 export const Counter = styled.h4<{ active: boolean }>`
   font-size: 1.3em;
-  color: ${(props) => (props.active ? '#ff5e5e' : '#939393')};
+  color: ${(props) => (props.active ? '#e2254d' : '#939393')};
   transition: 1.2s;
 `;
