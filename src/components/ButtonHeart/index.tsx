@@ -24,8 +24,7 @@ export default function ButtonHeart() {
     setLike((prev) => !prev);
     setAnimationState({
       ...animationState,
-      isStopped: false,
-      direction: animationState.direction === 1 ? -1 : 1,
+      isStopped: like,
     });
   }
 
@@ -41,8 +40,6 @@ export default function ButtonHeart() {
             width={160}
             speed={like ? 2 : 3}
             isStopped={animationState.isStopped}
-            isPaused={animationState.isPaused}
-            direction={animationState.direction}
           />
         </div>
       </ButtonElement>
