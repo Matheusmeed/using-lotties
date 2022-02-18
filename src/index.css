@@ -4,6 +4,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #040027;
 }
 
 code {
@@ -22,5 +23,5 @@ button {
 }
 
 h3 {
-  color: rgb(195, 0, 255);
+  color: aliceblue;
 }
