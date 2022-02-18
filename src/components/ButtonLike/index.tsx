@@ -32,7 +32,7 @@ export default function ButtonLike() {
   return (
     <>
       <Container>
-        <h3>Ao clicar (com animação no retorno)</h3>
+        <h3>Animação ao clicar (com animação no retorno)</h3>
         <ButtonElement onClick={handleClick}>
           <div style={{ pointerEvents: 'none' }}>
             <Lottie

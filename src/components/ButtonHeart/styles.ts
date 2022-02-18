@@ -15,6 +15,7 @@ export const ButtonElement = styled.button`
   width: 80px;
   border: none;
   background: none;
+  margin-top: 5px;
 `;
 
 export const Counter = styled.h4<{ active: boolean }>`

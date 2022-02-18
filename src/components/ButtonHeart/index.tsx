@@ -30,7 +30,7 @@ export default function ButtonHeart() {
 
   return (
     <Container>
-      <h3>Ao clicar (sem animação no retorno)</h3>
+      <h3>Animação ao clicar (sem animação no retorno)</h3>
       <ButtonElement onClick={handleClick}>
         <div style={{ pointerEvents: 'none' }}>
           <Lottie
